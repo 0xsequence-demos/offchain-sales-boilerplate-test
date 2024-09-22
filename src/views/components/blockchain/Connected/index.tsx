@@ -5,15 +5,19 @@ import Disconnect from "./Disconnect";
 import Tests from "./Tests";
 
 const Connected = () => {
-  const { address, chain, chainId } = useAccount();
+  const { address, chain } = useAccount();
   return (
     <>
       <Text variant="large" fontWeight="bold" color="text100">
         Connected with address: {address}
       </Text>
       <Disconnect />
-      {chain && <ChainInfo chain={chain} address={address!} />}
-      <Tests chainId={chainId!} />
+      {chain && (
+        <>
+          <ChainInfo chain={chain} address={address!} />
+          <Tests />
+        </>
+      )}
     </>
   );
 };

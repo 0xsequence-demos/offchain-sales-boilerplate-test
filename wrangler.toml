@@ -1,0 +1,12 @@
+name = "offchain-sales-boilerplate"
+pages_build_output_dir = "./dist"
+
+kv_namespaces = [
+    { binding = "season_pass", id = "44c2e92a13754aeb8603f0496eddca37" }
+]
+
+[vars]
+PROJECT_ACCESS_KEY = "AQAAAAAAADVH8R2AGuQhwQ1y8NaEf1T7PJM"
+
+[dev]
+port = 4444

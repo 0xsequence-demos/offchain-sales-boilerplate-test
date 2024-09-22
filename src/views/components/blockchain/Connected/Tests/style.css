@@ -1,0 +1,52 @@
+div .season-pass-title {
+  width: 150px;
+  border: 2px;
+  border-radius: 8px;
+  height: 44px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+div .season-pass-indicator {
+  width: 200px;
+  border: 2px;
+  border-radius: 8px;
+  height: 44px;
+  line-height: 40px;
+  border: 1px solid;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.114);
+  border-color: rgba(255, 255, 255, 0.474);
+}
+
+div[data-owned="true"] {
+  background-color: rgb(204, 144, 16);
+  border-color: yellow !important;
+  border: 4px solid;
+  line-height: 36px;
+  color: black;
+}
+
+div[data-owned="unknown"] {
+  background-color: rgba(204, 144, 16, 0.449);
+  border-color: rgba(255, 255, 0, 0.498) !important;
+  border: 4px solid;
+  line-height: 36px;
+  color: black;
+}
+
+.purchase {
+  background-color: green !important;
+}
+
+.purchase[disabled] {
+  background-color: rgba(43, 115, 43, 0.387) !important;
+}
+
+.burn {
+  background-color: rgb(183, 37, 0) !important;
+}
+
+.burn[disabled] {
+  background-color: rgba(92, 44, 32, 0.547) !important;
+}

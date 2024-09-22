@@ -20,3 +20,15 @@
 .homepage__marginBtNormal {
   margin-bottom: 1em;
 }
+
+input {
+  font-size: 20px;
+  margin: 12px;
+}
+
+button .hasSeasonPass {
+  background-color: yellow;
+}
+button .purchasable {
+  background-color: green;
+}
