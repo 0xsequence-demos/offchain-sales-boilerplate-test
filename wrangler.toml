@@ -1,8 +1,8 @@
-name = "offchain-sales-boilerplate"
+name = "offchain-sales-boilerplate-test"
 pages_build_output_dir = "./dist"
 
 kv_namespaces = [
-    { binding = "season_pass", id = "44c2e92a13754aeb8603f0496eddca37" }
+    { binding = "season_pass", id = "8acf8b389c4349a8a726d87f6723cb69" }
 ]
 
 [vars]
